@@ -9,7 +9,7 @@ body {
     color: #868e96;
 }
 
-@media (min-width:992px){
+@media (min-width:992px) {
     body {
         padding-top: 0;
         padding-left: 17rem;
@@ -23,12 +23,12 @@ body {
     }
 
     span.firstname {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
 
     span.lastname {
         display: block;
-        font-size: 4.0rem;
+        font-size: 3.0rem;
     }
 }
 
