@@ -11,14 +11,18 @@ body {
 }
 @media (min-width: 400px) and (max-width: 991px) {
     body {
-    padding-top: 0;
-    padding-left: 17rem;
-  }
-    h1 {
-    font-size: 2rem;
-    line-height: 5.5rem;
-    word-wrap: break-word;
-	}
+        padding-top: 0;
+        padding-left: 1rem;
+    }
+
+    span.firstname {
+        font-size: 3.5rem;
+    }
+
+    span.lastname {
+        display: block;
+        font-size: 3.0rem;
+    }
 }
 @media (min-width: 992px) {
   body {
