@@ -19,7 +19,7 @@ body {
 @media (min-width: 400px) and (max-width: 991px) {
     body {
         padding-top: 0;
-        padding-left: 1rem;
+        padding-left: 2rem;
     }
 
     span.firstname {
