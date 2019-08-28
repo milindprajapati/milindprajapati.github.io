@@ -23,12 +23,12 @@ body {
     }
 
     span.firstname {
-        font-size: 3.5rem;
+        font-size: 4.0rem;
     }
 
     span.lastname {
         display: block;
-        font-size: 3.0rem;
+        font-size: 3.5rem;
     }
 }
 
