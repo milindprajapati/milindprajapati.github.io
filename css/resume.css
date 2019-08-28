@@ -9,7 +9,17 @@ body {
   padding-top: 54px;
   color: #868e96;
 }
-
+@media (min-width: 400px) and (max-width: 991px) {
+    body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+    h1 {
+    font-size: 2rem;
+    line-height: 5.5rem;
+    word-wrap: break-word;
+	}
+}
 @media (min-width: 992px) {
   body {
     padding-top: 0;

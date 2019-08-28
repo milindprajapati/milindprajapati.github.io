@@ -16,6 +16,22 @@ body {
     }
 }
 
+@media (min-width: 400px) and (max-width: 991px) {
+    body {
+        padding-top: 0;
+        padding-left: 1rem;
+    }
+
+    span.firstname {
+        font-size: 4.5rem;
+    }
+
+    span.lastname {
+        display: block;
+        font-size: 4.5rem;
+    }
+}
+
 h1,
 h2,
 h3,
