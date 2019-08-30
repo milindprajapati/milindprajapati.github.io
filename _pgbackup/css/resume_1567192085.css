@@ -3,7 +3,18 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
+.alert {
+  padding: 20px;
+  background-color: #2196F3;
+  visibility : hidden;
+  color: white;
+  opacity: 1;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+  
+}
 
+#alrt:hover .alert{visibility:visible;}
 body {
   zoom: 75%;
   font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji','Muli';
@@ -31,14 +42,14 @@ body {
     padding-left: 17rem;
   }
 }
-#counter{
-  background-color: #2f447a;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  float : right;
+#precounter,#counter {
+    background-color: #2f477a;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
 }
 h1,
 h2,
