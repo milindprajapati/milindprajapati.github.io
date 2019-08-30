@@ -57,6 +57,10 @@ body {
     float: right;
 }
 
+#visitorcntr {
+    display: block;
+}
+
 h1,
 h2,
 h3,
@@ -197,7 +201,7 @@ p.lead {
 }
 
 section.resume-section {
-    padding-top: 5rem!important;
+    padding-top: 15rem!important;
     padding-bottom: 5rem!important;
     max-width: 75rem;
 }
@@ -218,7 +222,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width:992px){
     section.resume-section {
-        padding-top: 5rem!important;
+        padding-top: 15rem!important;
         padding-bottom: 3rem!important;
     }
 }

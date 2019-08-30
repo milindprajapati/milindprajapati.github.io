@@ -30,6 +30,11 @@ body {
     }
 }
 
+span.firstname {
+    padding-top: 30rem! important;
+    padding-left: 1rem;
+}
+
 @media (min-width: 400px) and (max-width: 991px) {
     body {
         padding-top: 0;
@@ -38,6 +43,8 @@ body {
 
     span.firstname {
         font-size: 4.0rem;
+        padding-top: 15rem;
+        padding-left: 1rem;
     }
 
     span.lastname {
@@ -55,6 +62,10 @@ body {
     text-decoration: none;
     display: inline-block;
     float: right;
+}
+
+#visitorcntr {
+    display: block;
 }
 
 h1,

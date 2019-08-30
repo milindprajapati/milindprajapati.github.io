@@ -13,7 +13,7 @@
     margin-bottom: 15px;
 }
 
-.alrt:hover .alert {
+#alrt:hover .alert {
     visibility: visible;
 }
 
@@ -53,8 +53,12 @@ body {
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline;
+    display: inline-block;
     float: right;
+}
+
+#visitorcntr {
+    display: block;
 }
 
 h1,
@@ -218,7 +222,7 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width:992px){
     section.resume-section {
-        padding-top: 3rem!important;
+        padding-top: 5rem!important;
         padding-bottom: 3rem!important;
     }
 }
