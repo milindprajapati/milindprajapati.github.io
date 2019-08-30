@@ -13,7 +13,7 @@
     margin-bottom: 15px;
 }
 
-#alrt:hover .alert {
+.alrt:hover .alert {
     visibility: visible;
 }
 
@@ -53,12 +53,8 @@ body {
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     float: right;
-}
-
-#visitorcntr {
-    display: block;
 }
 
 h1,

@@ -3,6 +3,9 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
+.down {
+}
+
 .alert {
     padding: 20px;
     background-color: #2196F3;
@@ -53,12 +56,8 @@ body {
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     float: right;
-}
-
-#visitorcntr {
-    display: block;
 }
 
 h1,

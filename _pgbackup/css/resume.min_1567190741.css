@@ -14,6 +14,7 @@
 }
 
 #alrt:hover .alert {
+    transition: 0.8s;
     visibility: visible;
 }
 
@@ -53,12 +54,8 @@ body {
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     float: right;
-}
-
-#visitorcntr {
-    display: block;
 }
 
 h1,

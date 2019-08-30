@@ -13,8 +13,8 @@
   margin-bottom: 15px;
   
 }
-
-#alrt:hover .alert{visibility:visible;}
+.alert{background-color: }
+.alrt:hover .alert.info{visibility:visible;}
 body {
   zoom: 75%;
   font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji','Muli';
@@ -48,7 +48,7 @@ body {
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     float: left;
 }
 h1,

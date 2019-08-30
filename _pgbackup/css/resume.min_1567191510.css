@@ -53,12 +53,8 @@ body {
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    float: right;
-}
-
-#visitorcntr {
-    display: block;
+    display: inline;
+    float: left;
 }
 
 h1,

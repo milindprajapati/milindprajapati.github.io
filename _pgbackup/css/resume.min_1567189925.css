@@ -4,16 +4,20 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 .alert {
-    padding: 20px;
-    background-color: #2196F3;
-    visibility: hidden;
+    padding: 10px;
+    background-color: #f44336;
     color: white;
     opacity: 1;
     transition: opacity 0.6s;
-    margin-bottom: 15px;
+    margin-bottom: 1px;
 }
 
-#alrt:hover .alert {
+.alert.info {
+    background-color: #2196F3;
+    visibility: hidden;
+}
+
+.alrt:hover .alert.info {
     visibility: visible;
 }
 
@@ -53,12 +57,8 @@ body {
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     float: right;
-}
-
-#visitorcntr {
-    display: block;
 }
 
 h1,
