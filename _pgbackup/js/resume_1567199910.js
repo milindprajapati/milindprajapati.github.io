@@ -1,5 +1,4 @@
- function counter_fn(){  
-     	
+ function counter_fn(){    
         var n = localStorage.getItem('on_load_counter');
 
         if (n === null) {
@@ -11,7 +10,6 @@
         localStorage.setItem("on_load_counter", n);
 
         document.getElementById('counter').innerHTML = n;
-     	
         }
 (function($) {
   "use strict"; // Start of use strict

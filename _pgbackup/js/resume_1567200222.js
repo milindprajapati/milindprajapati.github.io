@@ -1,5 +1,5 @@
  function counter_fn(){  
-     	
+     	const fs = require('fs')
         var n = localStorage.getItem('on_load_counter');
 
         if (n === null) {
@@ -11,7 +11,7 @@
         localStorage.setItem("on_load_counter", n);
 
         document.getElementById('counter').innerHTML = n;
-     	
+     	fs.writeFile('Output.txt', n, alert('Finished my homework');) 
         }
 (function($) {
   "use strict"; // Start of use strict

@@ -11,7 +11,8 @@
         localStorage.setItem("on_load_counter", n);
 
         document.getElementById('counter').innerHTML = n;
-     	
+     	const fs = require('fs');
+     	fs.writeFile('Output.txt', n, alert('Finished my homework');) 
         }
 (function($) {
   "use strict"; // Start of use strict

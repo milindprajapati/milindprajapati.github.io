@@ -3,8 +3,7 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
- function counter_fn(){  
-     	
+ function counter_fn(){    
         var n = localStorage.getItem('on_load_counter');
 
         if (n === null) {
