@@ -16,21 +16,7 @@
         <link href="css/resume.min.css" rel="stylesheet">
         <meta http-equiv="refresh" content="60">
     </head>
-    <body id="page-top">
-        <div>
-            <p>The number of visitors is : <span id="cntr">0</span></p>
-        </div>
-        <script>
-    
-    function counter_fn() {
-      var counter = document.getElementById("cntr");
-      count = parseInt(counter.innerHTML);
-      count = count + 1;
-      counter.innerHTML = count;
-      document.getElementById("cntr") = counter;
-    }
-    window.onload = counter_fn;
-  </script>
+    <body id="page-top" onload="counter_fn()">
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top border-primary shadow bg-primary" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top"> <span class="d-block d-lg-none">Milind Prajapati</span> <span class="d-none d-lg-block"> <img class="img-fluid img-profile rounded-circle mx-auto mb-2" alt="" src="img/profile.png"> </span> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,6 +49,9 @@
             </div>
         </nav>
         <div class="container-fluid p-0">
+            <div>Counter :
+                <p id="counter">
+            </div>
             <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
                 <div class="w-100">
                     <h1 class="mb-0 text-body font-weight-lighter"><span class="text-primary font-weight-bold"><font color="#212529"><span style="font-weight: 100;"><span class="firstname">MILIND&nbsp;</span></span></font></span><span class="text-primary font-weight-bold"><span class="lastname">PRAJAPATI</span></span></h1>

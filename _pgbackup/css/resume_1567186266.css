@@ -31,15 +31,7 @@ body {
     padding-left: 17rem;
   }
 }
-#precounter,#counter {
-    background-color: #2f477a;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline;
-    float: left;
-}
+
 h1,
 h2,
 h3,

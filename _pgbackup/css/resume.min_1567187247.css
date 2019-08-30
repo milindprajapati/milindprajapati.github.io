@@ -32,14 +32,13 @@ body {
     }
 }
 
-#precounter,
 #counter {
     background-color: #2f447a;
     color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline;
+    display: inline-block;
     float: right;
 }
 
