@@ -17,6 +17,19 @@
         <meta http-equiv="refresh" content="60">
     </head>
     <body id="page-top">
+        <div>
+            <p align:"">The number of visitors is : <span id="cntr"></span></p>
+        </div>
+        <script>
+    function counter_fn() {
+      var counter = document.getElementById("cntr");
+      var count = 0;
+      count = parseInt(counter.innerHTML);
+      count = count + 1;
+      counter.innerHTML = count;
+    }
+    window.onload = counter_fn;
+  </script>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top border-primary shadow bg-primary" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top"> <span class="d-block d-lg-none">Milind Prajapati</span> <span class="d-none d-lg-block"> <img class="img-fluid img-profile rounded-circle mx-auto mb-2" alt="" src="img/profile.png"> </span> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
